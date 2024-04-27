@@ -1,4 +1,5 @@
-const lastElement = arr => arr[arr.length - 1];
-var c = new Counter(); c.add(); c.add(); c.add();
-const isArray = (arr) => Array.isArray(arr);
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+console.log(1 +  -"1" + "2");
+const uniqueArr = (arr) => [...new Set(arr)];
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+const value = ( 5 < 7 ) ? "True" : "False" ;
+const uniqueArray = arr => [...new Set(arr)];
