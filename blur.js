@@ -1,4 +1,5 @@
-const getRandomBoolean = () => Math.random() >= 0.5;
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-var DELIM_SIZE = 4;
-var arr3 = "jones".split('');
+const flattenedArray = arr => [].concat(...arr);
+const fullName = name || 'buddy';
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const merge = [...new Set([...a, ...b])];
