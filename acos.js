@@ -1,3 +1,3 @@
-const value = ( 5 < 7 ) ? "True" : "False" ;
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+console.log(1 +  +"2" + "2");
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
+const intermediateAppPath = path.join(buildOutputPath, 'app');
