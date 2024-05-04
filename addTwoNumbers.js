@@ -1,2 +1,3 @@
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-const isTabInView = () => !document.hidden;
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+function myAPITS(someString: string, someNum: number) { ... };
