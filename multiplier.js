@@ -1,2 +1,3 @@
-const appName = getAppName(channel);
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+console.log(1 +  +"2" + "2");
+console.log( "A" - "B" + 2);
+const allResults = await Promise.all(items.map(async (item) => {}));
