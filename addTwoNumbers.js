@@ -1,3 +1,2 @@
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-function myAPITS(someString: string, someNum: number) { ... };
+const arrayContains = (arr, element) => arr.includes(element);
+const randomString = () => Math.random().toString(36).slice(2);
