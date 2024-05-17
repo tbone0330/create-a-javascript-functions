@@ -1,2 +1,3 @@
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
-const getRandomBoolean = () => Math.random() >= 0.5;
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+var arr1 = "john".split('');
