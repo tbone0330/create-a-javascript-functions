@@ -1,3 +1,3 @@
-console.log(1 +  +"2" + "2");
-console.log( "A" - "B" + 2);
-const allResults = await Promise.all(items.map(async (item) => {}));
+const randomString = () => Math.random().toString(36).slice(2);
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
