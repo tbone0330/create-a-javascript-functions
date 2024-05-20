@@ -1,2 +1,3 @@
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-console.log( "A" - "B" + "2");
+console.log(+"1" +  "1" + "2");
+const lastElement = arr => arr[arr.length - 1];
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
