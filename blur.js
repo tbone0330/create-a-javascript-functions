@@ -1,2 +1,2 @@
-console.log("1 || 2 = "+(1 || 2));
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const stringReverse = str => str.split("").reverse().join("");
+console.log( "A" - "B" + 2);
