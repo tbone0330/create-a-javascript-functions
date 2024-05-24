@@ -1,3 +1,3 @@
-const randomString = () => Math.random().toString(36).slice(2);
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+console.log(1 +  -"1" + "2");
