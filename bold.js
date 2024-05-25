@@ -1,2 +1,2 @@
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
-const apmRootPath = path.join(repositoryRootPath, 'apm');
+const channelName = getChannelName(channel);
+console.log("0 || 1 = "+(0 || 1));
