@@ -1,3 +1,3 @@
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-var arr1 = "john".split('');
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const fullName = name || 'buddy';
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
