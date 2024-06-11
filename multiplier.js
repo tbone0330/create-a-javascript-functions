@@ -1,1 +1,2 @@
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+console.log( "A" - "B" + 2);
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
