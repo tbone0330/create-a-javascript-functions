@@ -1,2 +1,3 @@
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const removeDuplicates = (arr) => [...new Set(arr)];
