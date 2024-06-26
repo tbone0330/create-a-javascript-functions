@@ -1,1 +1,3 @@
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+console.log(1 +  -"1" + "2");
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
