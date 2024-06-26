@@ -1,2 +1,2 @@
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
-function myAPITS(someString: string, someNum: number) { ... };
+const removeDuplicates = (arr) => [...new Set(arr)];
+const toggleBool = () => (bool = !bool);
