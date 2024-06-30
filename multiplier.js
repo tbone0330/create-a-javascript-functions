@@ -1,2 +1,3 @@
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-console.log( "A" - "B" + 2);
+const isTabInView = () => !document.hidden;
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const randomBoolean = () => Math.random() >= 0.5;
