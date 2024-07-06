@@ -1,2 +1,3 @@
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const isTabInView = () => !document.hidden;
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
