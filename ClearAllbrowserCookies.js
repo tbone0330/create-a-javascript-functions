@@ -1,2 +1,1 @@
-var arr1 = "john".split('');
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
