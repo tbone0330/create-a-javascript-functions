@@ -1,3 +1,2 @@
-const isTabInView = () => !document.hidden;
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const goToTop = () => window.scrollTo(0, 0);
 const randomBoolean = () => Math.random() >= 0.5;
