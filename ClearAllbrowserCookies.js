@@ -1,1 +1,1 @@
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const getRandomBoolean = () => Math.random() >= 0.5;
