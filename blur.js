@@ -1,2 +1,2 @@
-console.log(+"1" +  "1" + "2");
-const updated = numbers.filter(element => element > 6);
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+console.log( "A" - "B" + 2);
