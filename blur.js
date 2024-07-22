@@ -1,2 +1,3 @@
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+console.log(1 +  +"2" + "2");
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+const merge = (a, b) => a.concat(b);
