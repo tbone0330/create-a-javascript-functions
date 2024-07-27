@@ -1,2 +1,2 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const result = await makeHttpRequest(url);
+console.log("0 && 1 = "+(0 && 1));
