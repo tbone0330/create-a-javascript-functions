@@ -1,3 +1,1 @@
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-const lastElement = arr => arr[arr.length - 1];
-const reversedString = str => str.split('').reverse().join('');
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
