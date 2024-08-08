@@ -1,2 +1,2 @@
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
-const goToTop = () => window.scrollTo(0, 0);
+const isEven = (num) => num % 2 === 0;
+const arrayContains = (arr, element) => arr.includes(element);
